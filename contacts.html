@@ -18,6 +18,73 @@
     </header>
 
     <main>
+<main>
+        <section>
+            <h1>Контакти</h1>
+            <p>Зв'яжіться зі мною зручним для вас способом або залиште повідомлення через форму нижче. Я завжди відкрита до нових проєктів та співпраці!</p>
+
+            <h2>Мої контакти</h2>
+            <ul>
+                <li><strong>Локація:</strong> м. Богодухів, Харківська обл.</li>
+                <li><strong>Email:</strong> <a href="mailto:demidenkosofia0@gmail.com">demidenkosofia0@gmail.com</a></li>
+                <li><strong>Телефон:</strong> <a href="tel:+380991234567">+38 (093) 130-38-62</a></li>
+            </ul>
+
+            <br>
+            <hr>
+            <br>
+
+            <h2>Напишіть мені</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Контактна інформація відправника</legend>
+                    
+                    <label for="name">Ім'я:</label>
+                    <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+                    <br><br>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@example.com">
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Повідомлення</legend>
+                    
+                    <label for="subject">Тема:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Оберіть тему --</option>
+                        <option value="general">Загальне питання</option>
+                        <option value="cooperation">Співпраця</option>
+                        <option value="feedback">Відгук</option>
+                    </select>
+                    <br><br>
+                    
+                    <p>Тип звернення:</p>
+                    <label>
+                        <input type="radio" name="type" value="question" required> Питання
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="suggestion"> Пропозиція
+                    </label>
+                    <label>
+                        <input type="radio" name="type" value="complaint"> Скарга
+                    </label>
+                    <br><br>
+                    
+                    <label for="message">Повідомлення:</label><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Ваше повідомлення"></textarea>
+                </fieldset>
+                
+                <label>
+                    <input type="checkbox" name="consent" required>
+                    Я погоджуюсь на обробку персональних даних
+                </label>
+                <br><br>
+                
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
         </main>
 
     <footer>
