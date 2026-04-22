@@ -111,3 +111,23 @@ button {
 button:hover {
     background-color: rgb(230, 140, 165);
 }
+
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+.section-title::before {
+    content: "♛";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #f0a3b8;
+    font-size: 1.2rem;
