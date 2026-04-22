@@ -75,3 +75,39 @@ th {
 tr:nth-child(even) { background-color: #fff5f7; }
 
 tr:hover { background-color: rgb(252, 222, 230); }
+
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: #f0a3b8;
+    outline: none;
+    box-shadow: 0 0 5px rgba(240, 163, 184, 0.5);
+}
+
+button {
+    background-color: #f0a3b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(230, 140, 165);
+}
